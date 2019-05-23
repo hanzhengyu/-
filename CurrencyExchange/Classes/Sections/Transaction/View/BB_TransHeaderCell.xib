@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="BB_TransHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOG-hT-Wg1">
+                        <rect key="frame" x="276" y="0.0" width="138" height="109.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmR-9K-hvE">
+                        <rect key="frame" x="138" y="0.0" width="138" height="109.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ym-jv-pTb">
+                        <rect key="frame" x="0.0" y="0.0" width="138" height="109.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <font key="NSFont" size="12" name=".AppleSystemUIFont"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QOG-hT-Wg1" firstAttribute="leading" secondItem="JmR-9K-hvE" secondAttribute="trailing" id="0vm-85-Kjh"/>
+                    <constraint firstItem="JmR-9K-hvE" firstAttribute="height" secondItem="6Ym-jv-pTb" secondAttribute="height" id="2HQ-iJ-hTj"/>
+                    <constraint firstItem="QOG-hT-Wg1" firstAttribute="height" secondItem="6Ym-jv-pTb" secondAttribute="height" id="2jK-Bt-MMl"/>
+                    <constraint firstItem="QOG-hT-Wg1" firstAttribute="leading" secondItem="JmR-9K-hvE" secondAttribute="trailing" id="3al-hc-BwO"/>
+                    <constraint firstItem="QOG-hT-Wg1" firstAttribute="width" secondItem="6Ym-jv-pTb" secondAttribute="width" id="Boa-WM-F7C"/>
+                    <constraint firstItem="JmR-9K-hvE" firstAttribute="width" secondItem="6Ym-jv-pTb" secondAttribute="width" id="KwH-9G-Ikk"/>
+                    <constraint firstAttribute="bottom" secondItem="JmR-9K-hvE" secondAttribute="bottom" id="PsT-Pa-Ler"/>
+                    <constraint firstAttribute="bottom" secondItem="QOG-hT-Wg1" secondAttribute="bottom" id="Xby-8L-tRW"/>
+                    <constraint firstAttribute="trailing" secondItem="QOG-hT-Wg1" secondAttribute="trailing" id="knF-gX-nkt"/>
+                    <constraint firstItem="6Ym-jv-pTb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lYD-yU-acC"/>
+                    <constraint firstItem="QOG-hT-Wg1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mhS-Vo-Ajh"/>
+                    <constraint firstAttribute="bottom" secondItem="6Ym-jv-pTb" secondAttribute="bottom" id="qkO-3D-su2"/>
+                    <constraint firstItem="JmR-9K-hvE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="r3I-UD-Rf8"/>
+                    <constraint firstItem="6Ym-jv-pTb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rXY-bF-1kc"/>
+                    <constraint firstItem="JmR-9K-hvE" firstAttribute="leading" secondItem="6Ym-jv-pTb" secondAttribute="trailing" id="rXo-EY-aPc"/>
+                    <constraint firstItem="JmR-9K-hvE" firstAttribute="leading" secondItem="6Ym-jv-pTb" secondAttribute="trailing" id="vxO-4c-dkX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="countLabel" destination="QOG-hT-Wg1" id="ghF-TZ-SCJ"/>
+                <outlet property="pankouLabel" destination="6Ym-jv-pTb" id="X6b-ZX-zU7"/>
+                <outlet property="pricelLabel" destination="JmR-9K-hvE" id="3jR-pU-eXF"/>
+            </connections>
+            <point key="canvasLocation" x="-139" y="56"/>
+        </tableViewCell>
+    </objects>
+</document>
